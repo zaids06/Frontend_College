@@ -1,0 +1,16 @@
+.inner_box{
+    display: flex;
+    justify-content: center;
+}
+.main_box{
+    height: 400px;
+    width: 400px;
+    background: #2e8a57;
+}
+body{
+    background: #89e689;
+}
+label{
+    font-size: 20px;
+    padding: 5px;
+}

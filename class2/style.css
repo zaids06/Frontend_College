@@ -1,0 +1,79 @@
+#cat{
+    height: 400px;
+    border: 3px solid black;
+}
+*{
+    background: royalblue;
+}
+h1{
+    text-align: center;
+    background: peachpuff;
+}
+p{
+    font-size: 20px;
+    font-family: "Sans Serif Collection";
+    background: peachpuff;
+    color: green;
+}
+pre{
+    background: peachpuff;
+    font-size: 30px;
+}
+a{
+    background: peachpuff;
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.cont2{
+    display: flex;
+    justify-content: center;
+}
+.abrevation
+{
+    background: peachpuff;
+}
+address{
+    font-size: large;
+    width: 100px;
+    background: peachpuff;
+}
+.lpulogo{
+    float: right;
+}
+.citee{
+
+    background: peachpuff;
+    font-size: 30px;
+}
+h2{
+    background: peachpuff;
+}
+.months{
+    display: flex;
+    justify-content: center;
+}
+ol{
+    background: peachpuff;
+}
+li{
+    background: peachpuff;
+    font-size: 20px;
+}
+th{
+    padding: 30px;
+    font-size: 30px;
+    border: 2px solid black;
+    background: #85e085;
+}
+tr{
+    border: 10px solid black;
+}
+.tabledata td{
+    padding: 30px;
+    font-size: 30px;
+    border: 2px solid black;
+    background: peachpuff;
+}
