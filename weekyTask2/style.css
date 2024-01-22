@@ -1,0 +1,15 @@
+.body{
+    justify-content: center;
+    align-content: center;
+}
+.outer{
+
+    background: #2e8a57;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.outer1{
+    height: 300px;
+    width: 200px;
+    background: red;
+}
