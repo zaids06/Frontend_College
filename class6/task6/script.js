@@ -8,7 +8,7 @@ let totalPriceFunc = function () {
 totalPriceFunc();
 let outOfStock = function () {
     for (let i = 0; i < prodQuantity.length; i++)
-        (prodQuantity[i] == 0) ? console.log(`${prodName[i]} is out of stock`) : a = 10;
+        (prodQuantity[i] === 0) ? console.log(`${prodName[i]} is out of stock`) : a = 10;
 }
 outOfStock();
 let highestPrice = function () {
