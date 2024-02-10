@@ -6,6 +6,7 @@ let email=document.getElementById('email');
 
 
 
+
 let validate=function (){
     if(nameField.textContent==='');
     alert('Please enter your name');
