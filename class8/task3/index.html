@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #eat{
+            transition: background-color 5s;
+        }
+    </style>
+</head>
+<body>
+<div id="eat" style="border: solid"><p>Move your mouse over this page to change the background color.</p> </div>
+<script>
+    const body = document.body;
+    function  handleMouseOver(){
+        document.getElementById('eat').style.background="yellow";
+    }
+    body.addEventListener('mouseover',handleMouseOver)
+</script>
+</body>
+</html>
