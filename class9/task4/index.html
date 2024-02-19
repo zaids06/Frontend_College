@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On Load</title>
+</head>
+<body>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quod numquam velit omnis sapiente ea consectetur ducimus id corrupti, distinctio beatae aut facilis ad sequi atque quam officia. Perferendis, nobis.</p>
+<script>
+    function handleload(){
+        alert("loading finished");
+    }
+    window.addEventListener('load',handleload);
+    //window.addEventListener('unload',handleload);  It will show error due to some privacy....
+</script>
+</body>
+</html>
