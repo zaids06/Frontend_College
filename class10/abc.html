@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button onclick="start()">start</button>
+    <button onclick="stop()">stop</button>
+<p id="demo"></p>
+<script>
+    var i;
+    function start(){
+        i=setInterval(datetime,5000);
+    }
+    function datetime()
+    {
+        document.getElementById("demo").innerHTML=new Date();
+        document.getElementById("demo").style.cssText="font-size: 70px";
+        document.getElementById("demo").style.color="blue";
+        document.getElementById("demo").style.fontStyle="italic";
+    }
+    function stop()
+    {
+
+    }
+</script>
+</body>
+</html>
